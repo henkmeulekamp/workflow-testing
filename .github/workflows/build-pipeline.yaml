@@ -21,7 +21,7 @@ jobs:
   build:
     # Build runs on staging runner
     runs-on: ubuntu-latest
-    name: Compile and Package
+    name: compile-and-package
     env:
       DUMMY1: Hello-2
     steps:
